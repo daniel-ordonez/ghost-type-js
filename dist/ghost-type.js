@@ -48,7 +48,7 @@ class ghostType{
      * @param {Node | String} element - if none given an error is thrown
      * @param {Object} options 
      */
-    constructor( element, options, dev, name ){
+    constructor( element, options = {}, dev = false, name = "ghost" ){
         // Setup state
         this.states = ghostType.states;
         this._setState(this.states.IDLE);
