@@ -1,0 +1,25 @@
+{
+  "name": "ghost-type-js",
+  "version": "0.0.1",
+  "description": "JavaScript library for animated typing",
+  "main": "dist/ghost-type-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-ordonez/ghost-type-js.git"
+  },
+  "keywords": [
+    "animated",
+    "typing",
+    "effect",
+    "javascript"
+  ],
+  "author": "Daniel Ordonez <road_2015@hotmail.com> (https://daniel-ordonez.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-ordonez/ghost-type-js/issues"
+  },
+  "homepage": "https://github.com/daniel-ordonez/ghost-type-js#readme"
+}
