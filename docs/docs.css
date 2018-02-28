@@ -105,7 +105,7 @@ header{
     justify-content: center;
     list-style: none;
 }
-@media ( min-width : calc( 400px + 4rem ) ){
+@media screen and ( min-width : 646.01px ){
     .list button{
         min-width: 100px;
     }
@@ -116,7 +116,7 @@ header{
         display: none;
     }
 }
-@media ( max-width : calc( 400px + 4rem ) ){
+@media screen and ( max-width : 646px ){
     .list button{
         min-width: 60px;
         font-size: 1.5rem;
