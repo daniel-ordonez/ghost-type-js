@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'custom';
+  src:  url('fonts/custom.eot?ro2dzb');
+  src:  url('fonts/custom.eot?ro2dzb#iefix') format('embedded-opentype'),
+    url('fonts/custom.ttf?ro2dzb') format('truetype'),
+    url('fonts/custom.woff?ro2dzb') format('woff'),
+    url('fonts/custom.svg?ro2dzb#custom') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'custom' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e903";
+}
+.icon-npm:before {
+  content: "\e900";
+}
+.icon-code:before {
+  content: "\f1c9";
+}
+.icon-zip:before {
+  content: "\e902";
+}
