@@ -35,9 +35,6 @@ html,body, h1,h2,h3,h4,h5,h6{
 button,a,p,b,stron,small{
     font-family: inherit;
 }
-body{
-    overflow: hidden;
-}
 .ghost{
     animation: levitate 2s alternate ease-in-out infinite;
 }
@@ -79,7 +76,7 @@ body{
 #app{
     max-width: 100vw;
     display: grid;
-    grid-template-columns: 1fr minmax(300px, 800px) 1fr;
+    grid-template-columns: 1fr minmax(300px, 1200px) 1fr;
 }
 
 main{
@@ -143,4 +140,12 @@ word-break: normal;
 word-wrap: normal;
 margin-bottom: 16px;
 padding: 16px;
+}
+a, a:hover, a:visited, a:active{
+    text-emphasis: none;
+    text-decoration: none;
+    color: inherit;
+}
+.example{
+    margin-bottom: 24px;
 }

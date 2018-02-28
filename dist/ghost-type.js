@@ -253,7 +253,6 @@ class ghostType{
                 let readChars = queueReder( currentGroup, 0 );
                 let chars = readChars.next();
                 this._log("chars",chars);
-                console.log(chars);
                 while( !chars.done ){
                     if( this.isPaused ) await this.pausePromise;
                     let currentChar =  currentGroup[chars.value];
