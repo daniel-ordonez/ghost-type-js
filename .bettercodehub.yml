@@ -1,6 +1,0 @@
-component_depth: 2
-
-- name: javascript
-  dist:
-    include:
-      - .*/.*/.*\.js
