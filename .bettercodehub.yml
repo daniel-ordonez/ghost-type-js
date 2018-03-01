@@ -1,5 +1,6 @@
 component_depth: 2
-languages:
-- javascript
 
-
+- name: javascript
+  dist:
+    include:
+      - .*/.*/.*\.js
