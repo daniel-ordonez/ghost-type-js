@@ -1,8 +1,8 @@
 {
   "name": "ghost-type-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript library for animated typing",
-  "main": "dist/ghost-type-node.js",
+  "main": "dist/ghost-type-module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/daniel-ordonez/ghost-type-js/issues"
   },
-  "homepage": "https://github.com/daniel-ordonez/ghost-type-js#readme"
+  "homepage": "https://daniel-ordonez.github.io/ghost-type-js"
 }

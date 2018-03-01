@@ -1,2 +1,4 @@
 #NPM Node module
-dist/ghost-type-node.js
+dist/ghost-type-module.js
+.npmignore
+package.json
