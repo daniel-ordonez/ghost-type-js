@@ -1,5 +1,5 @@
 # Ghost Type JS
->Make cool typing effects for you site
+>Animated typing for you web projects
 
 ## Links
 
