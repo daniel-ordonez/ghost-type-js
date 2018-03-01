@@ -1,0 +1,11 @@
+languages:
+- javascript
+
+exclude:
+- /docs/.*
+
+component_depth: 2
+
+dist:
+  include:
+    /ghost-type.js/

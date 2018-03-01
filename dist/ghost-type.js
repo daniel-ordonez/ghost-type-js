@@ -3,7 +3,7 @@
 /** 
  * @author Daniel Ordonez - daniel-ordonez.github.io
  * @description ghostType Object Class
- * @version 0.0.1
+ * @version 0.0.3
  * @license ISC
  */
 class ghostType{
